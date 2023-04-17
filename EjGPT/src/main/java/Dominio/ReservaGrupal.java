@@ -6,7 +6,7 @@ import java.util.Scanner;
 La clase ReservaGrupal debe calcular el pago según el número de habitaciones 
 reservadas y un descuento por reserva grupal.
  */
-public class ReservaGrupal extends Reserva implements Pago {
+public class ReservaGrupal extends ReservaAbstracta implements Pago {
 
     private int numHabitaciones;
     private double precioHabitacion;

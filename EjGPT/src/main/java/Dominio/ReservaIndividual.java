@@ -6,7 +6,7 @@ import java.util.Scanner;
 La clase ReservaIndividual debe calcular el pago según la cantidad de noches y el precio por noche de la
 habitación
  */
-public class ReservaIndividual extends Reserva implements Pago {
+public class ReservaIndividual extends ReservaAbstracta implements Pago {
 
     private int DNI;
 
